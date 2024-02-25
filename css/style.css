@@ -1,0 +1,835 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../assets/fonts/Poppins-Bold.woff2') format('woff2'),
+        url('../assets/fonts/Poppins-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../assets/fonts/Poppins-Medium.woff2') format('woff2'),
+        url('../assets/fonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../assets/fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Poppins-Regular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.wrapper{
+    /* margin: 0 auto;
+    width: 90%;
+    max-width: 1200px; */
+}
+
+
+#header { 
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.wrapper{
+    /* margin: 0 auto;
+    width: 90%;
+    max-width: 1200px; */
+}
+
+#header .container { 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+#header .container .left { 
+
+}
+
+#header .container .left h1 { 
+    width: 60px;
+
+}
+
+#header .container .left h1 img { 
+    width: 100%;
+    display: block;
+}
+
+#header .container .right { 
+
+}
+
+#header .container .right ul { 
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .container .right ul li { 
+    list-style: none;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 600;   
+}
+
+#header .container .right ul li a { 
+    text-decoration: none;
+    font-family: poppins;
+    color: darkgray;
+}
+
+#header .main { 
+
+}
+
+#header .main .top { 
+
+}
+
+#header .main .top h1 { 
+
+}
+
+#header .main .top p { 
+
+}
+
+#header .main .middle { 
+
+}
+
+#header .main .middle .middle-left { 
+
+}
+
+#header .main .middle .middle-left h1 { 
+
+}
+
+#header .main .middle .middle-left h4 { 
+
+}
+
+#header .main .middle .middle-left p { 
+
+}
+
+#header .main .middle .middle-right { 
+
+}
+
+#header .main .middle .middle-right h1 { 
+
+}
+
+#header .main .middle .middle-right h4 { 
+
+}
+
+#header .main .middle .middle-right p { 
+
+}
+
+#header .main .bottom { 
+
+}
+
+#header .main .bottom .one { 
+
+}
+
+#header .main .bottom .one h1 { 
+
+}
+
+#header .main .bottom .one h4 { 
+
+}
+
+#header .main .bottom .one p { 
+
+}
+
+#header .main .two { 
+
+}
+
+#header .main .two h1 { 
+
+}
+
+#header .main .two h4 { 
+
+}
+
+#header .main .two p { 
+
+}
+
+#header .main .three { 
+
+}
+
+#header .main .three h1 { 
+
+}
+
+#header .main .three h4 { 
+
+}
+
+#header .main .three p { 
+
+}
+
+#header .spotlight { 
+
+}
+
+#header .spotlight h1 { 
+
+}
+
+#header .spotlight .global { 
+
+}
+
+#header .spotlight .global img { 
+
+}
+
+#header .spotlight .global h3 { 
+
+}
+
+#header .spotlight .global p { 
+
+}
+
+#header .spotlight .hub { 
+
+}
+
+#header .spotlight .hub img { 
+
+}
+
+#header .spotlight .hub h3 { 
+
+}
+
+#header .spotlight .hub p { 
+
+}
+
+#header .spotlight .world { 
+
+}
+
+#header .spotlight .world img { 
+
+}
+
+#header .spotlight .world h3 { 
+
+}
+
+#header .spotlight .world p { 
+
+}
+
+#header .spotlight .box { 
+
+}
+
+#header .spotlight .box .box-left { 
+
+}
+
+#header .spotlight .box .box-left img { 
+
+}
+
+#header .spotlight .box .box-right { 
+
+}
+
+#header .spotlight .box .box-right h3 { 
+
+}
+
+#header .spotlight .box .box-right p { 
+
+}
+
+#header .faetuers { 
+
+}
+
+#header .faetuers .faetuers-top { 
+
+}
+
+#header .faetuers .faetuers-top .techies { 
+
+}
+
+#header .faetuers .faetuers-top .techies h2 { 
+
+}
+
+#header .faetuers .faetuers-top .techies p { 
+
+}
+
+#header .faetuers .faetuers-top .techies button { 
+
+}
+
+#header .faetuers .faetuers-top .main { 
+
+}
+
+#header .faetuers .faetuers-top .main img { 
+
+}
+
+#header .faetuers .faetuers-bottom { 
+
+}
+
+#header .faetuers .faetuers-bottom .side { 
+
+}
+
+#header .faetuers .faetuers-bottom .side img { 
+
+}
+
+#header .faetuers .faetuers-bottom .best { 
+
+}
+
+#header .faetuers .faetuers-bottom .best h2 { 
+
+}
+
+#header .faetuers .faetuers-bottom .best p { 
+
+}
+
+#header .faetuers .faetuers-bottom .best button { 
+
+}
+
+#header .startup { 
+
+}
+
+#header .startup h1 { 
+
+}
+
+#header .startup p { 
+
+}
+
+#header .startup .startup-top { 
+
+}
+
+#header .startup .startup-top .steyp { 
+
+}
+
+#header .startup .startup-top .steyp ul { 
+
+}
+
+#header .startup .startup-top .steyp ul li { 
+
+}
+
+#header .startup .startup-top .steyp ul li .steyp-top { 
+
+}
+
+#header .startup .startup-top .steyp ul li .steyp-top img { 
+
+}
+
+#header .startup .startup-top .steyp ul li .steyp-top button { 
+
+}
+
+#header .startup .startup-top .steyp ul li .steyp-bottom { 
+
+}
+
+#header .startup .startup-top .steyp ul li .steyp-bottom h3 { 
+
+}
+
+#header .startup .startup-top .steyp ul li .steyp-bottom p { 
+
+}
+
+#header .startup .startup-top .steyp ul li .steyp-bottom button { 
+
+}
+
+#header .startup .startup-top .steyp ul li .steyp-bottom button img { 
+
+}
+
+#header .startup .startup-top .tegain { 
+
+}
+
+#header .startup .startup-top .tegain ul { 
+
+}
+
+#header .startup .startup-top .tegain ul li { 
+
+}
+
+#header .startup .startup-top .tegain ul li .tegain-top { 
+
+}
+
+#header .startup .startup-top .tegain ul li .tegain-top img { 
+
+}
+
+#header .startup .startup-top .tegain ul li .tegain-top button { 
+
+}
+
+#header .startup .startup-top .tegain ul li .tegain-bottom { 
+
+}
+
+#header .startup .startup-top .tegain ul li .tegain-bottom h3 { 
+
+}
+
+#header .startup .startup-top .tegain ul li .tegain-bottom p { 
+
+}
+
+#header .startup .startup-top .tegain ul li .tegain-bottom button { 
+
+}
+
+#header .startup .startup-top .tegain ul li .tegain-bottom button img { 
+
+}
+
+#header .startup .startup-top .Stickon { 
+
+}
+
+#header .startup .startup-top .Stickon ul { 
+
+}
+
+#header .startup .startup-top .Stickon ul li { 
+
+}
+
+#header .startup .startup-top .Stickon ul li .Stickon-top { 
+
+}
+
+#header .startup .startup-top .Stickon ul li .Stickon-top img { 
+
+}
+
+#header .startup .startup-top .Stickon ul li .Stickon-top button { 
+
+}
+
+#header .startup .startup-top .Stickon ul li .Stickon-bottom { 
+
+}
+
+#header .startup .startup-top .Stickon ul li .Stickon-bottom h3 { 
+
+}
+
+#header .startup .startup-top .Stickon ul li .Stickon-bottom p { 
+
+}
+
+#header .startup .startup-top .Stickon ul li .Stickon-bottom button { 
+
+}
+
+#header .startup .startup-top .Stickon ul li .Stickon-bottom button img { 
+
+}
+
+#header .startup .startup-top .Wise { 
+
+}
+
+#header .startup .startup-top .Wise ul { 
+
+}
+
+#header .startup .startup-top .Wise ul li { 
+
+}
+
+#header .startup .startup-top .Wise ul li .Wise-top { 
+
+}
+
+#header .startup .startup-top .Wise ul li .Wise-top img { 
+
+}
+
+#header .startup .startup-top .Wise ul li .Wise-top button { 
+
+}
+
+#header .startup .startup-top .Wise ul li .Wise-bottom { 
+
+}
+
+#header .startup .startup-top .Wise ul li .Wise-bottom h3 { 
+
+}
+
+#header .startup .startup-top .Wise ul li .Wise-bottom p { 
+
+}
+
+#header .startup .startup-top .Wise ul li .Wise-bottom button { 
+
+}
+
+#header .startup .startup-top .Wise ul li .Wise-bottom button img { 
+
+}
+
+#header .startup .startup-top .Dett { 
+
+}
+
+#header .startup .startup-top .Dett ul { 
+
+}
+
+#header .startup .startup-top .Dett ul li { 
+
+}
+
+#header .startup .startup-top .Dett ul li .Dett-top { 
+
+}
+
+#header .startup .startup-top .Dett ul li .Dett-top img { 
+
+}
+
+#header .startup .startup-top .Dett ul li .Dett-top button { 
+
+}
+
+#header .startup .startup-top .Dett ul li .Dett-bottom { 
+
+}
+
+#header .startup .startup-top .Dett ul li .Dett-bottom h3 { 
+
+}
+
+#header .startup .startup-top .Dett ul li .Dett-bottom p { 
+
+}
+
+#header .startup .startup-top .Dett ul li .Dett-bottom button { 
+
+}
+
+#header .startup .startup-top .Dett ul li .Dett-bottom button img { 
+
+}
+
+#header .startup .startup-bottom { 
+
+}
+
+#header .startup .startup-bottom .ifuex { 
+
+}
+
+#header .startup .startup-bottom .ifuex ul { 
+
+}
+
+#header .startup .startup-bottom .ifuex ul li { 
+
+}
+
+#header .startup .startup-bottom .ifuex ul li .ifuex-top { 
+
+}
+
+#header .startup .startup-bottom .ifuex ul li .ifuex-top img { 
+
+}
+
+#header .startup .startup-bottom .ifuex ul li .ifuex-top button { 
+
+}
+
+#header .startup .startup-bottom .ifuex ul li .ifuex-bottom { 
+
+}
+
+#header .startup .startup-bottom .ifuex ul li .ifuex-bottom h3 { 
+
+}
+
+#header .startup .startup-bottom .ifuex ul li .ifuex-bottom p { 
+
+}
+
+#header .startup .startup-bottom .ifuex ul li .ifuex-bottom button { 
+
+}
+
+#header .startup .startup-bottom .ifuex ul li .ifuex-bottom button img { 
+
+}
+
+#header .startup .startup-bottom .Estarel { 
+
+}
+
+#header .startup .startup-bottom .Estarel ul { 
+
+}
+
+#header .startup .startup-bottom .Estarel ul li { 
+
+}
+
+#header .startup .startup-bottom .Estarel ul li .Estarel-top { 
+
+}
+
+#header .startup .startup-bottom .Estarel ul li .Estarel-top img { 
+
+}
+
+#header .startup .startup-bottom .Estarel ul li .Estarel-top button { 
+
+}
+
+#header .startup .startup-bottom .Estarel ul li .Estarel-bottom { 
+
+}
+
+#header .startup .startup-bottom .Estarel ul li .Estarel-bottom h3 { 
+
+}
+
+#header .startup .startup-bottom .Estarel ul li .Estarel-bottom p { 
+
+}
+
+#header .startup .startup-bottom .WouldHub { 
+
+}
+
+#header .startup .startup-bottom .WouldHub ul { 
+
+}
+
+#header .startup .startup-bottom .WouldHub ul li { 
+
+}
+
+#header .startup .startup-bottom .WouldHub ul li .WouldHub-top { 
+
+}
+
+#header .startup .startup-bottom .WouldHub ul li .WouldHub-top img { 
+
+}
+
+#header .startup .startup-bottom .WouldHub ul li .WouldHub-top button { 
+
+}
+
+#header .startup .startup-bottom .WouldHub ul li .WouldHub-bottom { 
+
+}
+
+#header .startup .startup-bottom .WouldHub ul li .WouldHub-bottom h3 { 
+
+}
+
+#header .startup .startup-bottom .WouldHub ul li .WouldHub-bottom p { 
+
+}
+
+#header .startup .startup-bottom .WouldHub ul li .WouldHub-bottom button { 
+
+}
+
+#header .startup .startup-bottom .WouldHub ul li .WouldHub-bottom button img { 
+
+}
+
+#header .startup .startup-bottom .kfl { 
+
+}
+
+#header .startup .startup-bottom .kfl ul { 
+
+}
+
+#header .startup .startup-bottom .kfl ul li { 
+
+}
+
+#header .startup .startup-bottom .kfl ul li .kfl-top { 
+
+}
+
+#header .startup .startup-bottom .kfl ul li .kfl-top img { 
+
+}
+
+#header .startup .startup-bottom .kfl ul li .kfl-top button { 
+
+}
+
+#header .startup .startup-bottom .kfl ul li .kfl-bottom { 
+
+}
+
+#header .startup .startup-bottom .kfl ul li .kfl-bottom h3 { 
+
+}
+
+#header .startup .startup-bottom .kfl ul li .kfl-bottom p { 
+
+}
+
+#header .startup .startup-bottom .zentapps { 
+
+}
+
+#header .startup .startup-bottom .zentapps ul { 
+
+}
+
+#header .startup .startup-bottom .zentapps ul li { 
+
+}
+
+#header .startup .startup-bottom .zentapps ul li .zentapps-top { 
+
+}
+
+#header .startup .startup-bottom .zentapps ul li .zentapps-top img { 
+
+}
+
+#header .startup .startup-bottom .zentapps ul li .zentapps-top button { 
+
+}
+
+#header .startup .startup-bottom .zentapps ul li .zentapps-bottom { 
+
+}
+
+#header .startup .startup-bottom .zentapps ul li .zentapps-bottom h3 { 
+
+}
+
+#header .startup .startup-bottom .zentapps ul li .zentapps-bottom p { 
+
+}
+
+#header .startup .startup-bottom .zentapps ul li .zentapps-bottom button { 
+
+}
+
+#header .startup .startup-bottom .zentapps ul li .zentapps-bottom button img { 
+
+}
+
+#header .footer { 
+
+}
+
+#header .footer .footr-left { 
+
+}
+
+#header .footer .footr-left span { 
+
+}
+
+#header .footer .footer-right { 
+
+}
+
+#header .footer .footer-right ul { 
+
+}
+
+#header .footer .footer-right ul li { 
+
+}
+
+#header .footer .footer-right ul li img { 
+
+}
